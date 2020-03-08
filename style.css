@@ -1,0 +1,115 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+header {
+  background-color: rgb(98, 156, 223);
+  color: white;
+}
+
+nav {
+  color: rgb(98, 156, 223);
+  background-color: white;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#new {
+  margin-right: auto;
+}
+
+body {
+  background-color: rgb(46, 46, 46);
+}
+
+.square {
+  background-color: red;
+  border-radius: 15px;
+  height: 200px;
+}
+
+.palette {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  column-gap: 15px;
+  row-gap: 15px;
+  margin: 30px auto;
+}
+
+h1 {
+  padding: 5px 0;
+  font-size: 3rem;
+}
+
+h2 {
+  padding: 5px 0;
+}
+
+.item {
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.item:not(#result):hover {
+  background-color: rgb(98, 156, 223);
+  color: white;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.active {
+  background-color: rgb(98, 156, 223);
+  color: white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#result {
+  margin: auto;
+}
+
+#easy {
+  margin-left: auto;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
